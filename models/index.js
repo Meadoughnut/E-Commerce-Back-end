@@ -1,25 +1,20 @@
-const Traveller = require('./Traveller');
-const Location = require('./Location');
-const Trip = require('./Trip');
+// import models
+const Product = require('./Product');
+const Category = require('./Category');
+const Tag = require('./Tag');
+const ProductTag = require('./ProductTag');
 
-Traveller.belongsToMany(Location, {
-  // Define the third table needed to store the foreign keys
-  through: {
-    model: Trip,
-    unique: false
-  },
-  // Define an alias for when data is retrieved
-  as: 'planned_trips'
-});
+// Products belongsTo Category
 
-Location.belongsToMany(Traveller, {
-  // Define the third table needed to store the foreign keys
-  through: {
-    model: Trip,
-    unique: false
-  },
-  // Define an alias for when data is retrieved
-  as: 'location_travellers'
-});
+// Categories have many Products
 
-module.exports = { Traveller, Location, Trip };
+// Products belongToMany Tags (through ProductTag)
+
+// Tags belongToMany Products (through ProductTag)
+
+module.exports = {
+  Product,
+  Category,
+  Tag,
+  ProductTag,
+};
