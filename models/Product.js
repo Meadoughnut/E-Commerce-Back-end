@@ -18,10 +18,10 @@ Product.init(
     },
     location_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true,
     },
     price: {
-      types: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL,
       allowNull: false,
       validate: {
         isDecimal: true
