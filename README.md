@@ -17,7 +17,7 @@ This project is designed for an internet retail company that needs a reliable an
 - [Associations](#associations)
 - [Technologies Used](#technologies-used)
 - [Walkthrough Video](#walkthrough-video)
-- [License](#license)
+
 
 ## Installation
 
@@ -26,13 +26,13 @@ To get started with this project, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-backend.git
+   git clone https://github.com/Meadoughnut/E-Commerce-Back-end.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd ecommerce-backend
+   cd E-COMMERECE-BACK-END
    ```
 
 3. **Install the necessary packages**:
@@ -158,10 +158,7 @@ These associations define the relationships between the different models, ensuri
 
 ## Walkthrough Video
 
-A walkthrough video demonstrating the functionality of the application, including the creation of the schema, seeding the database, starting the server, and testing the API routes in Insomnia, can be found [here](#). (Include the actual link to your walkthrough video.)
+A walkthrough video demonstrating the functionality of the application, including the creation of the schema, seeding the database, starting the server, and testing the API routes in Insomnia, can be found [here](#https://app.screencastify.com/v3/watch/ND9mkkyHlepAiT74jgtT). 
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
-```
 
