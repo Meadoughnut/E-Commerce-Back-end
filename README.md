@@ -158,7 +158,7 @@ These associations define the relationships between the different models, ensuri
 
 ## Walkthrough Video
 
-A walkthrough video demonstrating the functionality of the application, including the creation of the schema, seeding the database, starting the server, and testing the API routes in Insomnia, can be found [#https://app.screencastify.com/v3/watch/ND9mkkyHlepAiT74jgtT]. 
+A walkthrough video demonstrating the functionality of the application, including the creation of the schema, seeding the database, starting the server, and testing the API routes in Insomnia, can be found https://app.screencastify.com/v3/watch/ND9mkkyHlepAiT74jgtT. 
 
 
 
